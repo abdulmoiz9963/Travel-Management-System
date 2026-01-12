@@ -28,9 +28,8 @@ services:
     depends_on:
       sqlserver:
         condition: service_healthy
-    ports:
-      - "127.0.0.1:8080:8080"
-
+    expose:
+      - "8080"
     environment:
       ASPNETCORE_ENVIRONMENT: Production
       ConnectionStrings__DefaultConnection: "Server=sqlserver;Database=TravelDB;User Id=sa;Password=SqlS3rver@2026!;TrustServerCertificate=True;"
