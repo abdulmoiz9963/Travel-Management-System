@@ -181,7 +181,9 @@ namespace MVCPro.Controllers
             //    i--;
             //}
             ViewData["currentStaff"] = s;
-            return Redirect("https://localhost:44372/Staff/StaffMain");
+            // return Redirect("https://localhost:44372/Staff/StaffMain");
+            return RedirectToAction("StaffMain", "Staff");
+
         }
         private bool IsImageFile(IFormFile file)
         {

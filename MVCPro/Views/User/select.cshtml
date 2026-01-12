@@ -30,8 +30,8 @@
         Select your position
     </button>
     <ul class="dropdown-menu">
-        <li><a class="User" href="https://localhost:44372/User/LoginUser">User</a></li>
-        <li><a class="Staff" href="https://localhost:44372/Staff/LoginStaff">Staff</a></li>
+        <li><a class="Staff" asp-controller="Staff" asp-action="LoginStaff">Staff</a></li>
+        <li><a class="User" asp-controller="User" asp-action="LoginUser">User</a></li>
     </ul>
 </div>
  *@
@@ -69,9 +69,9 @@
 
 <script>
     function user() { 
-        window.location.href = "https://localhost:44372/User/LoginUser";
+       window.location.href = "@Url.Action("LoginUser","User")";
     }
     function staff() {
-        window.location.href = "https://localhost:44372/Staff/LoginStaff";
+        window.location.href = "@Url.Action("LoginStaff","Staff")";
     }
 </script>

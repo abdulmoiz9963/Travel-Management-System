@@ -119,7 +119,9 @@ namespace MVCPro.Controllers
         {
             global.currentUser = null;
             global.currentType = null;
-            return Redirect("https://localhost:44372/Home/Index");
+            // return Redirect("https://localhost:44372/Home/Index");
+            return RedirectToAction("Index", "Home");
+
         }
 
         public IActionResult GoToMainStaff()

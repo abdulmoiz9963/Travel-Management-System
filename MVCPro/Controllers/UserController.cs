@@ -243,13 +243,18 @@ namespace MVCPro.Controllers
                 {
                     Staff s = _db.staff.FirstOrDefault(s => s.NationalId == global.currentUser);
                     ViewData["currentUser"] = s;
-                    return Redirect("https://localhost:44372/Staff/StaffMain");
+                    // return Redirect("https://localhost:44372/Staff/StaffMain");
+                    return RedirectToAction("StaffMain", "Staff");
+
                 }
                 else if (global.currentType == "Tour Guide")
                 {
                     Staff t = _db.staff.FirstOrDefault(s => s.NationalId == global.currentUser);
                     ViewData["currentUser"] = t;
-                    return Redirect("https://localhost:44372/Staff/TourGuideMain");
+                    // return Redirect("https://localhost:44372/Staff/TourGuideMain");
+                    return RedirectToAction("TourGuideMain", "Staff");
+
+
                 }
 
             }

@@ -53,7 +53,8 @@
             </p>
             <h1 style="font-size: 3.5vw">Discover Amazing Places With Us</h1>
         </div>
-        <button class="headerButton" onclick="location.href='https://localhost:44372/Trip/DisplayTrips'">
+        <button class="headerButton" onclick="location.href='@Url.Action("DisplayTrips","Trip")'"
+>
             Book Now
         </button>
     </div>
@@ -109,7 +110,8 @@
         <p style="color: #7ab730;">ABOUT US</p>
         <h2>We Provide Best Tour Packages In Your Budget</h2>
         <p style="color: #858585;">Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</p>
-        <button class="dataUnderHeaderButton" onclick="location.href='https://localhost:44372/Trip/DisplayTrips'">
+        <button class="dataUnderHeaderButton" onclick="location.href='@Url.Action("DisplayTrips","Trip")'"
+>
                 Book Now
             </button>
     </div>
@@ -212,7 +214,8 @@
                     <h3>${tripName}</h3>
                     <p>Price: ${price}</p>
                 </div>
-                    <button class="buttonTripHome" onclick="location.href='https://localhost:44372/Trip/ViewTrip/${tripId}'">
+                    <button class="buttonTripHome"onclick="location.href='@Url.Action("ViewTrip","Trip")/' + tripId"
+>
                                     View
                                     </button>
             `;

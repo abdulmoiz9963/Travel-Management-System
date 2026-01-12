@@ -1,0 +1,10 @@
+\\wsl.localhost\Ubuntu\home\abdul_moiz\project-asp\Travel-Management-System\MVCPro\obj\Debug\net8.0\MVCPro.csproj.AssemblyReference.cache
+\\wsl.localhost\Ubuntu\home\abdul_moiz\project-asp\Travel-Management-System\MVCPro\obj\Debug\net8.0\rpswa.dswa.cache.json
+\\wsl.localhost\Ubuntu\home\abdul_moiz\project-asp\Travel-Management-System\MVCPro\obj\Debug\net8.0\MVCPro.GeneratedMSBuildEditorConfig.editorconfig
+\\wsl.localhost\Ubuntu\home\abdul_moiz\project-asp\Travel-Management-System\MVCPro\obj\Debug\net8.0\MVCPro.AssemblyInfoInputs.cache
+\\wsl.localhost\Ubuntu\home\abdul_moiz\project-asp\Travel-Management-System\MVCPro\obj\Debug\net8.0\MVCPro.AssemblyInfo.cs
+\\wsl.localhost\Ubuntu\home\abdul_moiz\project-asp\Travel-Management-System\MVCPro\obj\Debug\net8.0\MVCPro.csproj.CoreCompileInputs.cache
+\\wsl.localhost\Ubuntu\home\abdul_moiz\project-asp\Travel-Management-System\MVCPro\obj\Debug\net8.0\MVCPro.MvcApplicationPartsAssemblyInfo.cache
+\\wsl.localhost\Ubuntu\home\abdul_moiz\project-asp\Travel-Management-System\MVCPro\obj\Debug\net8.0\MVCPro.RazorAssemblyInfo.cache
+\\wsl.localhost\Ubuntu\home\abdul_moiz\project-asp\Travel-Management-System\MVCPro\obj\Debug\net8.0\MVCPro.RazorAssemblyInfo.cs
+\\wsl.localhost\Ubuntu\home\abdul_moiz\project-asp\Travel-Management-System\MVCPro\obj\Debug\net8.0\MVCPro.sourcelink.json

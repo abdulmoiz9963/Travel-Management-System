@@ -79,12 +79,14 @@
                         <h3>${tripName}</h3>
                         <p>Price: ${price}</p>
                     </div>
-                                <button class="buttonTripHome" onclick="location.href='https://localhost:44372/Trip/ViewTrip/${tripId}'">
-                                View
-                                </button>
+                                
+>
+<button class="buttonTripHome" onclick="location.href='@Url.Action("ViewTrip","Trip")/' + tripId">
+
                 `;
         
         newTrip.appendChild(tripText);
+
 
         // Append the newTrip div to the container
         document.querySelector('.tripHomeall').appendChild(newTrip);
